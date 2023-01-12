@@ -314,7 +314,6 @@ footer p{
     width: 90%;
     margin: 0 auto;
   }
-  }
   .contribute {
     flex-direction: column-reverse;
   }
@@ -328,7 +327,7 @@ footer p{
   .subscribe-section input{
     margin: 10px 0px;
   }
-
+}
 
 
 
