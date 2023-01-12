@@ -293,7 +293,43 @@ footer p{
 /* responsive style */
 
 @media only screen and (max-width:576px) {
-  
+  .header-content{
+    padding: 70px 0px 0px 0px;
+  }
+  .header-content p{
+    padding: 20px;
+  }
+  .header, .bg{
+    height: 80vh;
+  }
+  .amount{
+    margin: 10px 0px;
+  }
+  .donate-tk{
+    flex-wrap: wrap;
+  }
+  .donate-box{
+    flex-wrap: wrap;
+    width: 90%;
+    margin: 0 auto;
+  }
+  .contribute {
+    flex-direction: column-reverse;
+  }
+  .contribute-image, .contribute-content {
+    width: 90%;
+  }
+  .subscribe-section{
+    width: 95%;
+    padding: 50px 10px;
+  }
+  .subscribe-section input{
+    margin: 10px 0px;
+  }
+}
+
+
+@media only screen and (min-width:577px) and (max-width: 768px) {
   .header-content{
     padding: 70px 0px 0px 0px;
   }
